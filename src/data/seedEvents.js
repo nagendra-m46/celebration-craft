@@ -1,0 +1,48 @@
+// Starter catalogue shown on first load. New events are added at runtime via the Create page.
+export const seedEvents = [
+  {
+    id: 'evt-1',
+    name: 'Classic Birthday Party',
+    category: 'Birthday',
+    basePrice: 15000,
+    description: 'A fun-filled party with decor, cake and snacks for up to 50 guests.',
+    packages: ['Balloon & banner decor', 'Custom birthday cake', 'Snacks & soft drinks'],
+    themeColor: '#f59e0b',
+  },
+  {
+    id: 'evt-2',
+    name: 'Traditional Haldi Ceremony',
+    category: 'Haldi',
+    basePrice: 25000,
+    description: 'A vibrant turmeric ceremony with floral decor, music and traditional rituals.',
+    packages: ['Marigold & floral decor', 'Haldi setup & props', 'Live dhol performance'],
+    themeColor: '#eab308',
+  },
+  {
+    id: 'evt-3',
+    name: 'Grand Marriage Celebration',
+    category: 'Marriage',
+    basePrice: 250000,
+    description: 'A complete wedding package with mandap, catering, photography and entertainment.',
+    packages: ['Mandap & stage decor', 'Catering for 300 guests', 'Photography & videography'],
+    themeColor: '#db2777',
+  },
+  {
+    id: 'evt-4',
+    name: 'Baby Shower Bliss',
+    category: 'Baby Shower',
+    basePrice: 20000,
+    description: 'A soft pastel baby shower with games, a dessert table and photo corner.',
+    packages: ['Pastel theme decor', 'Dessert table', 'Photo booth & games'],
+    themeColor: '#a78bfa',
+  },
+  {
+    id: 'evt-5',
+    name: 'Milestone 50th Birthday',
+    category: 'Birthday',
+    basePrice: 35000,
+    description: 'A special golden-jubilee style celebration with a live band and a memory slideshow.',
+    packages: ['Premium stage decor', 'Live band (2 hours)', 'Memory slideshow'],
+    themeColor: '#fb923c',
+  },
+];
